@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import StoreContext from 'components/Store/Context';
 import UIButton from 'components/UI/Button/Button';
-
+import {Img} from 'react-image';
 import './Login.css';
 
 function initialState() {
@@ -51,10 +51,16 @@ const UserLogin = () => {
 
   return (
     <div className="user-login">
-      <h1 className="user-login__title">Acesso a dashboard </h1>
+    <h1>Acesso a Dashboard</h1> 
+       <Img src="https://www.brasilcode.com.br/wp-content/uploads/2020/10/python-banner-1024x427.png" style={{
+     width: 170,
+     height: 100,
+     borderRadius: '10px'}}
+ /> 
+    
       <form onSubmit={onSubmit}>
         <div className="user-login__form-control">
-          <label htmlFor="user">Usuário</label>
+          <label htmlFor="user">Informe seu  Usuário</label>
           <input
             id="user"
             type="text"
@@ -64,7 +70,7 @@ const UserLogin = () => {
           />
         </div>
         <div className="user-login__form-control">
-          <label htmlFor="password">Senha</label>
+          <label htmlFor="password">informe sua Senha</label>
           <input
             id="password"
             type="password"

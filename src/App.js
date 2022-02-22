@@ -2,8 +2,9 @@ import React from 'react';
 import { Box, Paper } from "@material-ui/core";
 import { Theme, createStyles, makeStyles } from "@material-ui/core/styles";
 import './index.css'; 
-import '../src/components/User/Login/Login.css'
-// import Header from 'components/Header/index';
+
+
+
 
 
 
@@ -21,14 +22,17 @@ const useStyles = makeStyles((theme: Theme) =>
       width: ['100%', '40%', '25%'],
       textAlign: 'center', 
        lineHeight: '40px',
+       padding: "20px",
+      background: "black",
        
       
       "& > *": {
         margin: theme.spacing(3),
         width: theme.spacing(38),
         height: theme.spacing(30),
-        boxShadow: '0 0 3px 3px rgba(1, 1, 1, .155)',
-    
+        boxShadow: '0 0 3px 3px rgba(1, 1, 2, .175)',
+        borderRadius: "15px",
+       
       },
     },
   })
