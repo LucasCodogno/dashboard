@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {      
+      height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: end; */
+    justify-content: flex-end;
+align-items: flex-end;
+ 
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding: 20px;
+    }
+    
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+       
+    }
+    .makeStyles-root-1 {
+      width: 100%, 50%, 25%;
+      display: flex;
+      flex-wrap: wrap;
+      
+      text-align: center;
+      font-family: body;
+      line-height: 40px;
+   
+    }
+    
+    .MuiBox-root  {
+    
+        border-radius: 20px;
+        /* box-shadow: 10px 5px 5px black; */  
+        background-color: #9d979629;
+        -webkit-box-shadow: 9px 7px 5px rgba(29, 29, 29, 0.78);
+        -moz-box-shadow:   9px 7px 5px rgba(29, 29, 29, 0.78);
+        box-shadow:         9px 7px 5px rgba(29, 29, 29, 0.77);
+          
+    }
+
+  
+    .MuiPaper-root {
+
+      border-radius: 20px;
+     
+      
+    }
+
+    .makeStyles-root-1 {
+      width: 100%, 50%, 25%;
+      display: flex;
+      flex-wrap: wrap;
+      
+      text-align: center;
+      font-family: body;
+      line-height: 40px;
+  }
+
+
+
+  /* .Header {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px #003067;
+  }
+
+  .Header img {
+    height: 100%;
+    width: auto;
+  } */
+
